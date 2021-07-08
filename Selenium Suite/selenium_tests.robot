@@ -8,6 +8,7 @@ TC1
      ${currentdate}     Get Current Date
      Log To Console    ${currentdate}
 
+
 TC2
      Append To Environment Variable    Path      C:\\chromedriver\\chromedriver_win32
      Open Browser    url=http://demo.openemr.io/b/openemr/    browser=gc
